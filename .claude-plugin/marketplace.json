@@ -1,0 +1,63 @@
+{
+  "name": "data-journalism-marketplace",
+  "owner": {
+    "name": "Rui Barros",
+    "url": "https://github.com/ruimgbarros",
+    "email": "rui@ruibarros.me"
+  },
+  "metadata": {
+    "description": "Community-driven Claude Code marketplace for data journalists. Tools for API discovery, data analysis, visualization, OSINT, and investigative reporting.",
+    "version": "1.0.0",
+    "homepage": "https://github.com/ruimgbarros/data-journalism-marketplace",
+    "keywords": [
+      "data-journalism",
+      "investigative-reporting",
+      "data-analysis",
+      "api-discovery",
+      "osint",
+      "visualization",
+      "scraping",
+      "journalism"
+    ],
+    "categories": [
+      "API Discovery & Web Scraping",
+      "Data Analysis & Statistics",
+      "Data Visualization",
+      "Document Processing",
+      "OSINT",
+      "Team Collaboration & Workflows"
+    ],
+    "license": "MIT"
+  },
+  "plugins": [
+    {
+      "name": "discover-api",
+      "source": "./plugins/slash-commands/discover-api",
+      "description": "Reverse engineer hidden APIs in web portals - perfect for government sites, court records, and public databases",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rui Barros",
+        "email": "rui@ruibarros.me"
+      },
+      "keywords": [
+        "api",
+        "reverse-engineering",
+        "scraping",
+        "investigation",
+        "web-scraping",
+        "devtools"
+      ],
+      "category": "API Discovery & Web Scraping",
+      "language": "Python",
+      "difficulty": "intermediate",
+      "dependencies": [
+        {
+          "name": "chrome-devtools-mcp",
+          "type": "mcp-server",
+          "required": true,
+          "description": "Chrome DevTools MCP server for browser automation"
+        }
+      ]
+    }
+  ]
+}

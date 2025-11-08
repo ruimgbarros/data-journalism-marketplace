@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# Output files (when testing plugins)
+API_DOCUMENTATION.md
+*.csv
+*.json
+output/
+data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS
+Thumbs.db
