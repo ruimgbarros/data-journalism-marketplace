@@ -47,17 +47,7 @@
         "web-scraping",
         "devtools"
       ],
-      "category": "API Discovery & Web Scraping",
-      "language": "Python",
-      "difficulty": "intermediate",
-      "dependencies": [
-        {
-          "name": "chrome-devtools-mcp",
-          "type": "mcp-server",
-          "required": true,
-          "description": "Chrome DevTools MCP server for browser automation"
-        }
-      ]
+      "category": "API Discovery & Web Scraping"
     }
   ]
 }
